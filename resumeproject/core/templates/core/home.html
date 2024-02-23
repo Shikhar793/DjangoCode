@@ -1,0 +1,21 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class="mt-5">
+    <div class="text-center">
+        <img src="{% static 'core/images/pic2.jpg' %}" alt="ProfilePic" class="img-thumbnail" width="250px" height="150px">
+    </div>
+    <div class="mt-5 text-white mx-5 text-justify">
+        <h1 class="font-weight-bold">Hello,</h1>
+        <div class = "px-4" style = "line-height:2rem;">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ab esse nisi! Animi est enim quos maiores inventore unde sapiente, numquam tempore asperiores. Ut a deleniti animi perferendis excepturi! Id omnis veritatis nemo, ad praesentium alias mollitia autem suscipit aperiam voluptates ullam ea sapiente nihil iste quae corrupti at consequatur perferendis sed. Dignissimos nobis mollitia sapiente quisquam! Aut, similique impedit ut voluptas molestias quis rem repudiandae cupiditate tempore hic eligendi obcaecati earum perferendis natus quia repellat voluptatem porro delectus. Voluptas eaque placeat odio, doloremque amet perferendis exercitationem nisi, impedit numquam repudiandae velit? Dolor at vel sit ipsam nobis aliquam corrupti, exercitationem velit ab veniam modi provident neque assumenda cupiditate ratione odit non nisi eaque voluptate autem hic et soluta. Perspiciatis voluptate cum et hic consequuntur dolorem deserunt, excepturi consequatur nostrum, inventore, alias minus asperiores tempora maiores quae recusandae cupiditate. Quae est magnam impedit minima iusto nesciunt a numquam quo asperiores consequatur neque officia alias dolorem, natus reiciendis blanditiis aliquam itaque delectus tempora mollitia eos! Tempore accusantium eaque error id, minus harum? Laborum, et rem suscipit delectus ab sed ad illum aliquid quasi non illo laboriosam unde quo tempore similique rerum numquam architecto recusandae minus! Qui atque ipsam similique ducimus vero!
+            </p>
+        </div>
+    </div>
+    </div class = "text-center"> 
+    <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+    <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a>
+ </div>
+</div>
+{% endblock content %}
